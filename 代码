@@ -1,0 +1,92 @@
+CityData(
+    name: '烟台',
+    subtitle: '仙境海岸线 · 海滨之城',
+    titleTag: '海滨之城',
+    description:
+    '烟台拥有山东最迷人的海岸线，葡萄酒文化享誉全国，海鲜资源极为丰富，蓬莱仙阁承载着千年神话传说。',
+    color: const Color(0xFF1565C0),
+    secondaryColor: const Color(0xFF42A5F5),
+    icon: Icons.waves,
+    heroEmoji: '🌊',
+    imageUrl:
+    'https://p5-flow-imagex-sign.byteimg.com/labis/image/f143653365eac964a93a69aec0362b9e~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264688&x-signature=Gi9SeW995PgxsOFnxIX0%2FRrzP5I%3D',
+    tags: ['葡萄酒之都', '海鲜天堂', '仙境蓬莱', '海岛探索', '浪漫海岸'],
+    attractions: const [
+      Attraction(
+        name: '蓬莱阁',
+        description:
+        '中国著名的神话仙境，"八仙过海"的传说发源地，建筑雄伟壮观，登高可览渤黄两海交汇奇观，素有"人间仙境"之美誉。',
+        rating: 5,
+        suitableFor: ['历史文化', '拍照打卡', '家庭旅游', '神话探索'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/tos-cn-i-6w9my0ksvp/44d6507b0ba448498d0d0bce585e1d28~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264689&x-signature=C0yhNZsm%2FPm390R%2BM4IDZi8r0eM%3D',
+        emoji: '🏯',
+      ),
+      Attraction(
+        name: '养马岛',
+        description:
+        '烟台热门海岛景点，海边风景优美，骑行道蜿蜒曲折，适合骑行、散步和情侣约会，日落时分最为浪漫。',
+        rating: 5,
+        suitableFor: ['情侣约会', '骑行', '海边散步', '摄影'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/58d81b3fd37aaf1cee2e3b834bfc92a2~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264691&x-signature=nPyUMeKQVEy3rBvhVDhJIInZE4Y%3D',
+        emoji: '🏝️',
+      ),
+      Attraction(
+        name: '烟台山景区（4A，免费）',
+        description: '烟台地标与名称由来，近代领事馆聚集地。看点：欧式建筑群、冰心纪念馆、灯塔，俯瞰全城与海湾。',
+        rating: 4,
+        suitableFor: ['建筑爱好者', '文化探索', '情侣', '品鉴体验'],
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/8b04ba240839c8ed994380bbbd4b090f~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264692&x-signature=Jy6XHMLJWWvsuK%2BDlApmPu%2BuzW0%3D',
+        emoji: '🍷',
+      ),
+    ],
+    foods: const [
+      Food(
+        name: '鲅鱼水饺',
+        area: '芝罘区·老街食堂',
+        rating: 5,
+        price: 25,
+        description: '烟台最具代表性的传统美食，鲜活鲅鱼制馅，皮薄馅厚，鲜味十足，是每个来烟台的游客必打卡的美食。',
+        emoji: '🥟',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/495c31b61210008dd2c568824c8b587f~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264697&x-signature=FtvvM3Gi1lsNIThEx4sDpTQRbOA%3D',
+      ),
+      Food(
+        name: '海肠捞饭（必吃）',
+        area: '莱山区',
+        rating: 5,
+        price: 45,
+        description: 'Q 弹海肠 + 韭菜 + 肉沫，浇米饭拌匀，鲜脆爽口，烟台城市名片。',
+        emoji: '🦪',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/3f3b5e40cc44a85921a3fa796d5ce205~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264695&x-signature=DDnPoCuQhMZxm7P9%2BVQqKUSacE0%3D',
+      ),
+      Food(
+        name: '蓬莱小面（省级非遗）',
+        area: '蓬莱',
+        rating: 4,
+        price: 35,
+        description: '手工抻制，细如银丝，筋韧爽滑，鱼卤 / 肉卤鲜美。',
+        emoji: '🍜',
+        imageUrl:
+        'https://p5-flow-imagex-sign.byteimg.com/labis/image/33aa8d8f924314dacb28798d505c15a2~tplv-a9rns2rl98-pc_smart_face_crop-v1:512:384.image?lk3s=8e244e95&rcl=20260608154440EEAB742B07876C30C725&rrcfp=cee388b0&x-expires=2096264698&x-signature=yny4GiRCh1vR6YyPOoj6OSMDOgM%3D',
+      ),
+    ],
+    routes: const [
+      RoutePlan(
+        title: '烟台仙境浪漫两日游',
+        items: [
+          RouteItem(time: '第一天 09:00', place: '蓬莱阁·仙境探访', icon: '🏯'),
+          RouteItem(time: '12:00', place: '蓬莱特色海鲜午餐', icon: '🍽️'),
+          RouteItem(time: '14:30', place: '张裕葡萄酒博物馆', icon: '🍷'),
+          RouteItem(time: '第二天 08:30', place: '养马岛骑行', icon: '🚴'),
+          RouteItem(time: '12:00', place: '岛上新鲜海鲜午餐', icon: '🦞'),
+          RouteItem(time: '15:00', place: '第一海水浴场', icon: '🏖️'),
+          RouteItem(time: '19:00', place: '夜市海鲜烧烤', icon: '🔥'),
+        ],
+      ),
+    ],
+  ),
+  
